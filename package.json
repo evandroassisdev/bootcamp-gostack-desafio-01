@@ -4,5 +4,14 @@
   "main": "index.js",
   "repository": "https://github.com/evandroassisdev/bootcamp-gostack-desafio-01.git",
   "author": "Evandro Assis <evandroassisdev@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
